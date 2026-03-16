@@ -1,3 +1,4 @@
+Changes that we did can you find [here](ValueOfProject.md)
 <div align="center">
 
 [![Resume Matcher](assets/page_2.png)](https://www.resumematcher.fyi)
