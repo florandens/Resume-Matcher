@@ -20,3 +20,13 @@ To support regulatory compliance (e.g., GDPR), we added an optional feature that
 - Fully configurable retention period
 - Applies to all stored CV‑related data
 - Helps reduce long‑term data exposure risks
+
+
+To ensure reliability and maintainability of all new privacy features, we also introduced a set of unit tests.
+
+These tests cover:
+- Validation of CV redaction logic
+- Correct removal of personal identifiers
+- Automatic data‑deletion behavior
+
+This strengthens the overall codebase and ensures future changes don’t break privacy‑critical functionality.
