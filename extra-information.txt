@@ -1,0 +1,10 @@
+page's: 
+    apps/frontend/app/(default)/(onboarding)/resume: handeals request and check of thery is somithing in the database 
+        go not to backend -> query not found
+
+
+Resume-Matcher_PrivTest/apps/backend/app/services/resume_service.py:
+    function to store resume
+    function is calld in Resume-Matcher_PrivTest/apps/backend/app/api/router/v1/resume.py
+
+apps/backend/app/services/resume_service.py line 201 -> send the data to get it in a LLM.

@@ -1,0 +1,8 @@
+To run the test:
+```bash
+cd apps/test
+npm run MakeVenv
+npm run test_anonymization
+npm run test_database
+```
+for the one with database you need first run the application that the database is created.

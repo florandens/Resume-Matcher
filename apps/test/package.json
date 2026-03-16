@@ -1,0 +1,13 @@
+{
+  "name": "resume-matcher-tests",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "MakeVenv": "python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt",
+    "test_all":". .venv/bin/activate && pytest -v app",
+    "test_anonymization": ". .venv/bin/activate && pytest -v app/test_anonymization.py", 
+    "test_llm":  ". .venv/bin/activate && python3 -m unittest app.test_LLM",
+    "test_database":  ". .venv/bin/activate && pytest -v -s app/test_database.py",
+    "database_info":  ". .venv/bin/activate && python3 app/data_base_information.py"
+  }
+}
